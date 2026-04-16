@@ -1,13 +1,10 @@
 <div align="center">
 
-# Data Science Portfolio 
-**CodeAlpha Internship Program**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=200&section=header&text=Data%20Science%20Portfolio&fontSize=50&fontColor=e0d7ff&animation=fadeIn&desc=CodeAlpha%20Internship%20Program&descAlignY=70&descAlign=50" width="100%"/>
 
-<br>
+**A Curated Collection of Machine Learning & Analytics Projects built in Python.**
 
-A curated collection of three end-to-end data science and machine learning projects focusing on macro-economic analysis, ROI forecasting, and vehicle appraisal.
-
-`Python` `Pandas` `Scikit-Learn` `Jupyter`
+`Pandas`  |  `Scikit-Learn`  |  `Seaborn`  |  `Jupyter`
 
 </div>
 
@@ -24,42 +21,39 @@ Data_Science_Projects/
 
 <br>
 
-## 📊 Projects
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:24243e,100:0f0c29&height=80&text=Portfolio%20Projects&fontSize=30&fontColor=e0d7ff&animation=fadeIn" width="100%"/>
+</div>
 
-### 01. Unemployment Tracking
-Analyzing structural shifts in the Indian Labor Market (2019-2020), quantifying the statistical shock introduced by the COVID-19 pandemic.
-- **Finding:** A catastrophic jump from ~8% to 25%+ national unemployment in April 2020.
-- **Stack:** Pandas, Matplotlib, Seaborn
-- **[View Notebook →](1_Unemployment_Analysis/Unemployment_Analysis.ipynb)**
+<br>
+
+### 01. Macro-Economic Unemployment Tracking
+A complete analytical deep-dive into the structural shifts in the Indian Labor Market (2019-2020), specifically quantifying the statistical shock introduced by the COVID-19 pandemic.
+* **Key Finding:** A catastrophic leap from ~8% to 25%+ national unemployment in April 2020.
+* **Technology:** Pandas, Matplotlib, Seaborn
+* **Execution:** [View Jupyter Notebook →](1_Unemployment_Analysis/Unemployment_Analysis.ipynb)
 
 <br>
 
 ### 02. Advertising ROI & Sales Prediction
-A regression engine formulated to identify which marketing channels (TV, Radio, Newspaper) possess the highest elasticity on final product sales.
-- **Finding:** TV Advertising commands an overwhelming 90% statistical correlation to sales yields.
-- **Best Model:** Random Forest Regressor (~98% R² Accuracy).
-- **Stack:** Scikit-learn, Sklearn-Metrics, Pandas
-- **[View Notebook →](2_Sales_Prediction/Sales_Prediction.ipynb)**
+A regression engine utilizing historical spending to identify which marketing channels (TV, Radio, Newspaper) possess the highest positive correlation with final product sales.
+* **Key Finding:** TV Advertising commands an overwhelming 90% correlation, while Newspapers act as a static noise threshold.
+* **Best Model:** Random Forest Regressor hitting ~98% R² Accuracy.
+* **Technology:** Scikit-Learn, Sklearn-Metrics, Pandas
+* **Execution:** [View Jupyter Notebook →](2_Sales_Prediction/Sales_Prediction.ipynb)
 
 <br>
 
 ### 03. Used-Car Valuation Matrix
-A digital appraisal tool capable of estimating second-hand vehicle pricing through feature engineering (Age, Transmissions, Depreciation).
-- **Finding:** The manufacturer's standard Present Value inherently decides ~80% of resale potential limiters.
-- **Best Model:** Random Forest (R² > 95%).
-- **Stack:** Scikit-learn, LabelEncoder, NumPy
-- **[View Notebook →](3_Car_Price_Prediction/Car_Price_Prediction.ipynb)**
+Constructing a digital appraisal tool capable of estimating second-hand vehicle pricing through robust feature engineering (Car Age, Engine Type, Depreciation).
+* **Key Finding:** The manufacturer's standard Present Value establishes ~80% of resale potential ceiling.
+* **Best Model:** Random Forest yielding R² > 95%.
+* **Technology:** Scikit-Learn, LabelEncoder, NumPy
+* **Execution:** [View Jupyter Notebook →](3_Car_Price_Prediction/Car_Price_Prediction.ipynb)
 
 <br><br>
 
-## 💻 Quick Start
-
-```bash
-git clone https://github.com/Piyu242005/CodeAlpha-Data-Science-Projects.git
-cd CodeAlpha-Data-Science-Projects
-pip install -r requirements.txt
-jupyter notebook
-```
+---
 
 <br><br>
 
