@@ -30,6 +30,7 @@ This repository showcases three end-to-end data science case studies. Each proje
 - [Architecture](#-architecture)
 - [Portfolio Projects](#-portfolio-projects)
 - [Project Highlights](#-project-highlights)
+- [Results Gallery](#-results-gallery)
 - [How to Run Locally](#-how-to-run-locally)
 - [Metrics & Methodology](#-metrics--methodology)
 - [About the Author](#-about-the-author)
@@ -70,6 +71,14 @@ Data_Science_Projects/
 <br>
 
 ### 01. Macro-Economic Unemployment Tracking
+<div align="center">
+	<img src="https://capsule-render.vercel.app/api?type=rect&color=0:24243e,100:0f0c29&height=60&section=header&text=Unemployment%20Tracking&fontSize=22&fontColor=e0d7ff&animation=fadeIn" width="100%"/>
+	<br>
+	<img src="assets/images/unemployment_trend.svg" width="92%" alt="Unemployment trend preview"/>
+</div>
+
+<br>
+
 **Objective**
 Analyze the macro-economic shock on unemployment rates in India (2019-2020) and quantify the COVID-19 impact with temporal and regional comparisons.
 
@@ -91,6 +100,14 @@ National unemployment jumped from ~8% to 25%+ in April 2020, signaling a sudden 
 <br>
 
 ### 02. Advertising ROI & Sales Prediction
+<div align="center">
+	<img src="https://capsule-render.vercel.app/api?type=rect&color=0:24243e,100:0f0c29&height=60&section=header&text=Advertising%20ROI%20%26%20Sales&fontSize=22&fontColor=e0d7ff&animation=fadeIn" width="100%"/>
+	<br>
+	<img src="assets/images/sales_tv_scatter.svg" width="92%" alt="TV advertising vs sales preview"/>
+</div>
+
+<br>
+
 **Objective**
 Predict product sales from marketing spend and identify the most influential advertising channel.
 
@@ -114,6 +131,14 @@ TV spend shows the strongest positive correlation, while newspaper ads contribut
 <br>
 
 ### 03. Used-Car Valuation Matrix
+<div align="center">
+	<img src="https://capsule-render.vercel.app/api?type=rect&color=0:24243e,100:0f0c29&height=60&section=header&text=Used-Car%20Valuation%20Matrix&fontSize=22&fontColor=e0d7ff&animation=fadeIn" width="100%"/>
+	<br>
+	<img src="assets/images/car_price_scatter.svg" width="92%" alt="Car price scatter preview"/>
+</div>
+
+<br>
+
 **Objective**
 Estimate used-car prices using engineered features such as car age, kilometers driven, fuel type, and seller type.
 
@@ -141,6 +166,29 @@ Present value explains the majority of resale price variance, with age as a stro
 - Channel-level contribution ranking for marketing ROI
 - Feature engineering with appraisal logic for resale pricing
 - Interpretable metrics and visual storytelling across notebooks
+
+<br>
+
+## 🖼️ Results Gallery
+<table>
+	<tr>
+		<td align="center">
+			<img src="assets/images/unemployment_trend.svg" width="240" alt="Unemployment trend preview"/>
+			<br>
+			<sub>Monthly unemployment trend (2019-2020)</sub>
+		</td>
+		<td align="center">
+			<img src="assets/images/sales_tv_scatter.svg" width="240" alt="TV vs sales preview"/>
+			<br>
+			<sub>TV spend vs sales response</sub>
+		</td>
+		<td align="center">
+			<img src="assets/images/car_price_scatter.svg" width="240" alt="Price scatter preview"/>
+			<br>
+			<sub>Present price vs selling price</sub>
+		</td>
+	</tr>
+</table>
 
 <br>
 
